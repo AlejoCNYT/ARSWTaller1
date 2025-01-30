@@ -35,20 +35,24 @@ Para este ejercicio se quiere calcular, en el menor tiempo posible, y en una sol
 A partir de lo anterior, implemente la siguiente secuencia de experimentos para calcular el millon de dígitos (hex) de PI, tomando los tiempos de ejecución de los mismos (asegúrese de hacerlos en la misma máquina):
 
 1. Un solo hilo.
-![Captura de pantalla 2025-01-29 210431.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20210431.png)
-![Captura de pantalla 2025-01-29 210426.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20210426.png)
+![Captura de pantalla 2025-01-29 210431](https://github.com/user-attachments/assets/28c0c164-b232-4bcd-b404-af7906398a77)
+![Captura de pantalla 2025-01-29 210426](https://github.com/user-attachments/assets/3f10ba01-8544-420d-9853-c69fdc26412a)
+
 2. Tantos hilos como núcleos de procesamiento (haga que el programa determine esto haciendo uso del [API Runtime](https://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html)).
-![Captura de pantalla 2025-01-29 211507.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211507.png)
-![Captura de pantalla 2025-01-29 211403.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211403.png)
+![Captura de pantalla 2025-01-29 211043](https://github.com/user-attachments/assets/3f6dfe25-808d-431c-aea7-68b150ffb3e1)
+![Captura de pantalla 2025-01-29 211225](https://github.com/user-attachments/assets/9bddf7fa-aacc-4a70-9af6-db4611ac0bdb)
+
 3. Tantos hilos como el doble de núcleos de procesamiento.
-![Captura de pantalla 2025-01-29 211507.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211507.png)
-![Captura de pantalla 2025-01-29 211403.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211403.png)
+![Captura de pantalla 2025-01-29 211357](https://github.com/user-attachments/assets/3df8d0f0-005f-45bc-ba03-76b2f3c09b50)
+![Captura de pantalla 2025-01-29 211403](https://github.com/user-attachments/assets/b9c1441c-6fb6-41b3-935d-79a5f3e30fdc)
+
 4. 200 hilos.
-![Captura de pantalla 2025-01-29 211704.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211704.png)
-![Captura de pantalla 2025-01-29 211546.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211546.png)
+![Captura de pantalla 2025-01-29 211507](https://github.com/user-attachments/assets/ca3c966c-18ee-4190-8ef4-adf4865f7e9d)
+![Captura de pantalla 2025-01-29 211546](https://github.com/user-attachments/assets/991e262d-bb23-4b7b-be9d-6c0b32af91e3)
+
 5. 500 hilos.
-![Captura de pantalla 2025-01-29 211704.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211704.png)
-![Captura de pantalla 2025-01-29 211403.png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FCaptura%20de%20pantalla%202025-01-29%20211403.png)
+![Captura de pantalla 2025-01-29 211546](https://github.com/user-attachments/assets/861a8990-c3fe-47fb-8a6e-cebdc23e6027)
+![Captura de pantalla 2025-01-29 211704](https://github.com/user-attachments/assets/19559666-9bfe-46e9-93f9-da0430b02348)
 
 Al iniciar el programa ejecute el monitor jVisualVM, y a medida que corran las pruebas, revise y anote el consumo de CPU y de memoria en cada caso. ![](img/jvisualvm.png)
 

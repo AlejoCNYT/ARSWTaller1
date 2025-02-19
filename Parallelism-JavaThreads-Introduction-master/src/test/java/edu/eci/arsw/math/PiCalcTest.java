@@ -77,7 +77,6 @@ public class PiCalcTest {
 
         assertNotNull(digits);
         assertEquals(count, digits.length);
-        // Aquí puedes agregar más aserciones para verificar los valores específicos de los dígitos
     }
 
     @Test
@@ -90,7 +89,6 @@ public class PiCalcTest {
 
         assertNotNull(digits);
         assertEquals(count, digits.length);
-        // Aquí puedes agregar más aserciones para verificar los valores específicos de los dígitos
     }
 
 //    @Test(expected = IllegalArgumentException.class)
@@ -143,7 +141,6 @@ public class PiCalcTest {
         System.out.println("Primeros 10 dígitos: " + firstDigits.toString());
         System.out.println("---------------------------------------------");
 
-        // Aserciones adicionales (opcional)
         assertNotNull(digits);
         assertEquals(TOTAL_DIGITS, digits.length);
     }
@@ -168,7 +165,6 @@ public class PiCalcTest {
         System.out.println("Primeros 10 dígitos: " + firstDigits.toString());
         System.out.println("---------------------------------------------");
 
-        // Aserciones adicionales (opcional)
         assertNotNull(digits);
         assertEquals(TOTAL_DIGITS, digits.length);
     }
@@ -193,7 +189,6 @@ public class PiCalcTest {
         System.out.println("Primeros 10 dígitos: " + firstDigits.toString());
         System.out.println("---------------------------------------------");
 
-        // Aserciones adicionales (opcional)
         assertNotNull(digits);
         assertEquals(TOTAL_DIGITS, digits.length);
     }
@@ -218,7 +213,6 @@ public class PiCalcTest {
         System.out.println("Primeros 10 dígitos: " + firstDigits.toString());
         System.out.println("---------------------------------------------");
 
-        // Aserciones adicionales (opcional)
         assertNotNull(digits);
         assertEquals(TOTAL_DIGITS, digits.length);
     }
@@ -243,7 +237,6 @@ public class PiCalcTest {
         System.out.println("Primeros 10 dígitos: " + firstDigits.toString());
         System.out.println("---------------------------------------------");
 
-        // Aserciones adicionales (opcional)
         assertNotNull(digits);
         assertEquals(TOTAL_DIGITS, digits.length);
     }
